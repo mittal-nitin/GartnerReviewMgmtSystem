@@ -1,0 +1,5 @@
+id###testDescription###expectedStatusCode###texts###ratings###expectedNumberOfRowsInOutput
+1###Verify that single Record POST in EN language via POST API can be extracted via GET API###200###Fabulous###5###1
+2###Verify that single Record POST in ES language via POST API can be extracted via GET API###200###Fabulosa###5###1
+3###Verify that multiple(5)  different (different in text) Reviews in FR Language POST via POST API can be extracted via GET API###200###Fabuleuse,Époustouflant,Bon produit,Agréable d'avoir,Mon plaisir###5,4,5,3,5###1
+4###Verify that multiple(5)  different (different in text) Reviews in EN Language POST via POST API can be extracted via GET API###200###Fabolous,Mind Blowing,Great Product,Nice To Have,My Pleasure ###5,4,3,5,1###1

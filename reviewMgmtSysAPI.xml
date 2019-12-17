@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Review Managment System" verbose="10" thread-count="30" parallel="methods" >
+
+	<test name="Review Managment System API">
+		<groups>
+			<dependencies>
+				<group name = "Dependent" depends-on = "Independent"></group>
+			</dependencies>
+		</groups>
+
+		<classes>
+			<class name="APITests.GetReviewsTest"></class>
+		</classes>
+	</test>
+
+</suite>
+
